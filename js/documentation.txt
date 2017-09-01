@@ -1,0 +1,41 @@
+KRAV:
+1. I websiden skal det benyttes CSS for å stile elementene og vi forventer at det er lagt ned litt arbeid i å lage en visuelt tiltalende side.
+
+-Med CSS har vi laget en webside som *ironisk* hyller 80-talls estetikk.
+Her har stilvalgene fremmet 80-talls stilen med retro fonter, og fargevalg av tekst, bakgrunn og bilder med motiv fra 80-tallet.
+
+
+2. I websiden skal du bruke CSS Flexbox layout for å posisjonere elementene (CSS Flexible Box Layout Module, sjekk på web hva det er).
+
+-Flexbox brukes for å posisjonere sub-sidene i en kolonne.
+-Hver side har bruker flexbox for å posisjonere header, og hovedinnhold (enten i kolonne eller rad).
+
+3. Bruk Javascript for gjøre noen ett eller flere elementer på siden interaktiv (hva dette skal være og hvor avansert du vil gjøre det er helt opp til deg).
+
+-Javascript sørger for at når man blar ned siden så blar man nøyaktig en hel side.
+-Spillet snake er også produsert med javascript
+
+4. Siden skal ha et favicon (sjekk på web hva dette er) 
+- Siden har et favicon som deklareres i head
+
+5. Siden skal være gyldig HTML (kunne valideres av W3C markup validator) og være testet for forskjellige weblesere
+-  Siden har blirr validert av W3C. Det er kun et varsel om at role="banner" i header er unødvendig, men jeg argumenterer 
+for at det gir semantisk mening i denne one-page siden.
+
+
+6. CSS og Javascript skal være i egne filer
+- CSS og Javasript separert i hver sine mapper. Fontene lenkes til med link og det er grunnen til at ddt er to klasser i html-filen som endrer font.
+
+7. Lag lettlest dokumentasjon hvor du forklarer kort hvor/hvordan du har løst kravene over 
+
+
+Objektive krav: 
+1. Websiden skal oppfylle kravene som er listet 
+
+Subjektive krav: 
+1. Viser at du kan lage en individuell visuell utforming, god kode, nivå og prestasjon
+
+Vi ønsker en webside med positive vibrasjoner, men det trenger ikke være spesielt seriøst. 
+Innleveringen skal vurderes av andre studenter, og hvis du vil være anonym må du unngå å bruke informasjon som kan identifisere de.
+
+Fritt valg om du vil bruke norsk eller engelsk språk.

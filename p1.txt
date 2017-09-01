@@ -1,0 +1,37 @@
+Om prosjektet
+
+I denne arbeidsoppgaven skal du lage en webside hvor du bruker HTML, CSS og Javascript. 
+NB! Du skal ikke bruke rammeverk, ekstra biblioteker eller annet. Her er det plain HTML, CSS og Javscript som teller.
+
+Tema for websiden er noe du er takknemlig for i livet. 
+
+Krav til siden
+
+I websiden skal det benyttes CSS for å stile elementene og vi forventer at det er lagt ned litt arbeid i å lage en visuelt tiltalende side.
+I websiden skal du bruke CSS Flexbox layout for å posisjonere elementene (CSS Flexible Box Layout Module, sjekk på web hva det er).
+Bruk Javascript for gjøre noen ett eller flere elementer på siden interaktiv (hva dette skal være og hvor avansert du vil gjøre det er helt opp til deg).
+Siden skal ha et favicon (sjekk på web hva dette er) 
+Siden skal være gyldig HTML (kunne valideres av W3C markup validator) og være testet for forskjellige weblesere
+CSS og Javascript skal være i egne filer
+Lag lettlest dokumentasjon hvor du forklarer kort hvor/hvordan du har løst kravene over 
+Vi forventer at dere bruker 6-8 timer på denne oppgaven totalt. Oppgaven leveres som en zip-fil. Etter at innleveringsfristen er gått ut, skal du evaluere andres innleveringer. Evalueringen må også utføres for at du skal få denne oppgaven godkjent. Selv om det brukes studentevaluering er det faglærer som bestemmer endelig poeng.
+
+Vurderingskriterier:
+
+Objektive krav: 
+Websiden skal oppfylle kravene som er listet 
+Subjektive krav: 
+Viser at du kan lage en individuell visuell utforming, god kode, nivå og prestasjon
+Vi ønsker en webside med positive vibrasjoner, men det trenger ikke være spesielt seriøst. 
+Innleveringen skal vurderes av andre studenter, og hvis du vil være anonym må du unngå å bruke informasjon som kan identifisere de.
+Fritt valg om du vil bruke norsk eller engelsk språk.
+
+Oppgaven godkjennes kun innen de frister som er satt.
+
+Levering:
+
+Dialogen for å levere finner du ved å trykke på overskriften til denne oppgaven Spørsmål 1
+(som forøvrig et et godt eksempel på designvalg som ville fått lav poengscore i dette emnet)
+
+
+Status: Ikke fullført

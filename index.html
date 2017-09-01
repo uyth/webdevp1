@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hyllest til 80-tallet</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="img/favicon_harold.png">
+        <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Monoton">
+        <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inconsolata">
+        <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=VT323">
+        <style>
+            .monoton {
+                font-family: 'Monoton', 'Helvetica', sans-serif;
+                font-weight: 100;
+            }
+            .inconsolata {
+                font-family: 'Inconsolata', 'Helvetica', sans-serif;
+            }
+            .vt323 {
+                font-family: 'VT323', 'Helvetica', sans-serif;
+            }
+        </style>
+    </head>
+    <body id="page-container" class="page-container">
+        <div id="page-0" class="page">
+            <div class="content">
+                <header role="banner">
+                    <h1 class="monoton"><span>80-tallet </span></h1>
+                </header>
+            </div>
+            <div class="flex down-arrow">
+                <a id="button-0" href="#page-1" role="button">▼</a>
+            </div>
+        </div>
+        <div id="page-1" class="page">
+            <div class="content flex-row flex mobile-collapse">
+                <article class="block flex-4 flex-col flex">
+                    <header class="title block flex-2">
+                        <h2 class="monoton">
+                            <span class="background-fill">En ikonisk æra</span>
+                        </h2>
+                    </header>
+                    <div class="flex flex-row flex-8 mobile-collapse">
+                        <aside class="block flex-2 mj">
+
+                        </aside >
+                        <div class="flex flex-4">
+                            <p class="inconsolata">
+                                <span class="background-fill">
+                                80-tallet, for en tid. Tiden for stort hår,
+                                hår på brystet og boogey woogey.
+                                Michael Jackson var fremdeles brun, men
+                                det var mye annet som var hvitt dette tiåret.
+                                Terminator ble gitt ut i 1984.
+                                Det var tiåret berlinermuren falt.
+                                Arkadene var fulle av liv og glede.
+                                Space Invaders hadde en innebygget "funksjon" som fikk romvesnene til å gå raskere når en av sine egne døde,
+                                det var så klart ikke fordi
+                                det var mer minne som ble tilgjengelig. Nei da.
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="down-arrow flex">
+                <a id="button-1" href="#page-2" role="button" class="cell">▼</a>
+            </div>
+        </div>
+        <div id="page-2" class="page">
+            <div class="content flex-row flex">
+                <article class="flex flex-col tight">
+                    <header class="title block flex-2">
+                        <h2 class="monoton">
+                            <span class="background-fill">Musikkens storhetstid</span>
+                        </h2>
+                    </header>
+                    <div class="flex flex-8 inconsolata flex-col mobile-collapse">
+                        <div class="flex-4">
+                            <iframe style="height:100%;width:50%;margin:auto;" src="https://player.vimeo.com/video/68969224" allowfullscreen></iframe>
+                        </div>
+                        <div class="flex block flex-2">
+                            <p class="center">
+                                <span class="background-fill">
+                                Noen mener musikken fra 80-tallet er fæl. De tar simpelthen feil og skjønner ikke viktigheten av funky beats.
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="flex down-arrow">
+                <a id="button-2" href="#page-3" role="button" class="cell">▼</a>
+            </div>
+        </div>
+        <div id="page-3" class="page">
+            <div class="content flex-row flex">
+                <article class="flex flex-col">
+                    <header class="title block flex-2 flex-col">
+                        <h2 class="monoton flex">
+                            <span class="background-fill">Og her er et spill</span>
+                        </h2>
+                    </header>
+                    <div class="flex-8 flex flex-col">
+                        <div class="flex flex-between"  style="margin: 10px;">
+                            <p class="flex flex-2 vt323 flex-start"><span class="background-fill">Poeng    : </span><span id="score" class="background-fill">00000</span></p>
+                            <p class="flex flex-2 vt323 flex-end"><span class="background-fill">High Score: </span><span id="highScore" class="background-fill">00000</span></p>
+                        </div>
+                        <canvas id="snake" class="flex-8" width="300" height="300" style="margin: 10px;">
+                        </canvas>
+                        <div class="flex">
+                            <p class="flex flex-2 vt323"><span class="background-fill">Nytt spill: space. Styr med piltaster</span></p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <script src="js/scroll.js"></script>
+        <script src="js/snake.js"></script>
+    </body>
+</html>

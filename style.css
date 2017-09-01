@@ -1,0 +1,256 @@
+/* Page layout */
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.page-container {
+    min-height: 400vh; /* height equal to x pages * 100% */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-container > .page {
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+.page > .content {
+    min-height: 80vh;
+    max-height: 80vh;
+    margin: 5vh;
+}
+
+.page > .down-arrow {
+    min-height: 10vh;
+}
+
+.block {
+    margin: 2em;
+}   
+
+.tight {
+    margin: 0 10vw;
+}
+
+.center {
+    text-align: center;
+}
+
+header[role="banner"] {
+    flex-basis: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+header > h1, header > h2 {
+    display: block;
+    text-align: center;
+}
+
+.down-arrow {
+    min-height: 10vh;
+}
+
+.down-arrow > a[role="button"]  {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+article p {
+    margin: auto;
+}
+
+@media (max-width: 900px){
+    aside {
+        display: none!important;
+    }
+}
+
+/*
+@media (max-width: 1200px) and (min-width: 900px) {
+    .mobile-collapse {
+        flex-direction: column!important;
+        flex-wrap: wrap;
+    }
+}*/
+
+header.title {
+    text-align: center;
+    margin: auto;
+}
+
+.flex-8 {
+    flex-grow: 8;
+    flex-basis: 0;
+    display: flex;
+}
+
+.flex-4 {
+    flex-grow: 4;
+    flex-basis: 0;
+    display: flex;
+}
+
+.flex-2 {
+    flex-grow: 2;
+    flex-basis: 0;
+    display: flex;
+}
+
+.flex-shrink {
+    flex-shrink: 1;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.cell {
+    margin: 4%;
+}
+
+.flex {
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-between {
+    justify-content: space-between!important;
+}
+
+.flex-start {
+    justify-content: flex-start!important;
+}
+
+.flex-end {
+    justify-content: flex-end!important;
+}
+
+section > header {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position:absolute; 
+    width: 100%;
+    height: 100%;
+}
+
+.mj {
+    background: url('https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* font sizes */
+h1 {
+    font-size: 4em! important;
+}
+h2 {
+    font-size: 3em!important;
+}
+
+article p {
+    font-size: 2em;
+}
+
+a {
+    font-size: 3em;
+}
+
+@media (max-width: 1200px) {
+
+    p > span {
+        font-size: 0.75em!important;
+    }
+    h2 {
+        font-size: 2em!important;
+    }
+}       
+
+@media (max-width: 899px) {
+    h1 {
+        font-size: 4em!important;
+    }
+    h2 {
+        font-size: 1.5em!important;
+    }
+    p {
+        font-size: 1.5em!important;
+    }
+}
+
+
+/* style */
+
+*{
+    color: #05EAFA; /* seafoam */
+}
+
+header h1 span, header h2 span {
+    padding: 0.2em;
+    background: #f3ea5f; /* yellow   */
+}
+
+a {
+    text-decoration: none;
+    color: #f3ea5f; /*yellow */
+    font-size: 3em;
+}
+
+#page-1 {
+    background: url('img/pattern.jpg');
+    background-repeat: repeat;
+    color: #32FA05!important; /* green */
+}
+
+
+a:hover {
+    color: #32FA05; /* green */
+}
+
+body {
+    background: #FA056F; /* magenta */
+}
+
+.background-fill {
+    background: #000;
+    padding:0.1em;
+}
+
+nav > ul > li {
+    list-style-type: none;
+    background: yellow;
+}
+
+#page-2 {
+    background: url('https://d3atagt0rnqk7k.cloudfront.net/wp-content/uploads/2016/12/05133738/music-video-strain-pairing-take-on-me-with-cheese-1280x800.jpg');
+    background-size: cover;
+}
+
+#page-3 {
+    background: url('http://i.imgur.com/GRvLnQz.png');
+    background-size: cover;
+    background-position: center;
+}
